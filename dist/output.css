@@ -42,7 +42,7 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -85,7 +85,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -354,7 +354,8 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -586,7 +587,9 @@ html {
   --bc: 220 13% 69%;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -596,19 +599,19 @@ html {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -616,24 +619,24 @@ html {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
 ::backdrop {
@@ -646,19 +649,19 @@ html {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -666,27 +669,27 @@ html {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
-.avatar.placeholder > div {
+.avatar.placeholder>div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -700,8 +703,8 @@ html {
   width: 1.5rem;
   cursor: pointer;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border-width: 1px;
   border-color: hsl(var(--bc) / var(--tw-border-opacity));
   --tw-border-opacity: 0.2;
@@ -724,14 +727,14 @@ html {
   border-radius: var(--rounded-btn, 0.5rem);
 }
 
-.input-group > .input {
+.input-group>.input {
   isolation: isolate;
 }
 
-.input-group > *,
-  .input-group > .input,
-  .input-group > .textarea,
-  .input-group > .select {
+.input-group>*,
+.input-group>.input,
+.input-group>.textarea,
+.input-group>.select {
   border-radius: 0px;
 }
 
@@ -747,8 +750,8 @@ html {
   width: 1.5rem;
   cursor: pointer;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border-radius: 9999px;
   border-width: 1px;
   border-color: hsl(var(--bc) / var(--tw-border-opacity));
@@ -759,13 +762,13 @@ html {
   position: relative;
   display: inline-grid;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   place-content: center;
   cursor: pointer;
 }
 
-.swap > * {
+.swap>* {
   grid-column-start: 1;
   grid-row-start: 1;
   transition-duration: 300ms;
@@ -775,25 +778,25 @@ html {
 
 .swap input {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .swap .swap-on,
 .swap .swap-indeterminate,
-.swap input:indeterminate ~ .swap-on {
+.swap input:indeterminate~.swap-on {
   opacity: 0;
 }
 
-.swap input:checked ~ .swap-off,
+.swap input:checked~.swap-off,
 .swap.swap-active .swap-off,
-.swap input:indeterminate ~ .swap-off {
+.swap input:indeterminate~.swap-off {
   opacity: 0;
 }
 
-.swap input:checked ~ .swap-on,
+.swap input:checked~.swap-on,
 .swap-active .swap-on,
-.swap input:indeterminate ~ .swap-indeterminate {
+.swap input:indeterminate~.swap-indeterminate {
   opacity: 1;
 }
 
@@ -819,23 +822,21 @@ html {
 }
 
 .checkbox:checked,
-  .checkbox[checked="true"],
-  .checkbox[aria-checked="true"] {
+.checkbox[checked="true"],
+.checkbox[aria-checked="true"] {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--bc) / var(--tw-bg-opacity));
   background-repeat: no-repeat;
   animation: checkmark var(--animation-input, 0.2s) ease-in-out;
   background-image: linear-gradient(-45deg, transparent 65%, hsl(var(--chkbg)) 65.99%),
-      linear-gradient(45deg, transparent 75%, hsl(var(--chkbg)) 75.99%),
-      linear-gradient(-45deg, hsl(var(--chkbg)) 40%, transparent 40.99%),
-      linear-gradient(
-        45deg,
-        hsl(var(--chkbg)) 30%,
-        hsl(var(--chkfg)) 30.99%,
-        hsl(var(--chkfg)) 40%,
-        transparent 40.99%
-      ),
-      linear-gradient(-45deg, hsl(var(--chkfg)) 50%, hsl(var(--chkbg)) 50.99%);
+    linear-gradient(45deg, transparent 75%, hsl(var(--chkbg)) 75.99%),
+    linear-gradient(-45deg, hsl(var(--chkbg)) 40%, transparent 40.99%),
+    linear-gradient(45deg,
+      hsl(var(--chkbg)) 30%,
+      hsl(var(--chkfg)) 30.99%,
+      hsl(var(--chkfg)) 40%,
+      transparent 40.99%),
+    linear-gradient(-45deg, hsl(var(--chkfg)) 50%, hsl(var(--chkbg)) 50.99%);
 }
 
 .checkbox:indeterminate {
@@ -844,14 +845,12 @@ html {
   background-repeat: no-repeat;
   animation: checkmark var(--animation-input, 0.2s) ease-in-out;
   background-image: linear-gradient(90deg, transparent 80%, hsl(var(--chkbg)) 80%),
-      linear-gradient(-90deg, transparent 80%, hsl(var(--chkbg)) 80%),
-      linear-gradient(
-        0deg,
-        hsl(var(--chkbg)) 43%,
-        hsl(var(--chkfg)) 43%,
-        hsl(var(--chkfg)) 57%,
-        hsl(var(--chkbg)) 57%
-      );
+    linear-gradient(-90deg, transparent 80%, hsl(var(--chkbg)) 80%),
+    linear-gradient(0deg,
+      hsl(var(--chkbg)) 43%,
+      hsl(var(--chkfg)) 43%,
+      hsl(var(--chkfg)) 57%,
+      hsl(var(--chkbg)) 57%);
 }
 
 .checkbox:disabled {
@@ -877,19 +876,17 @@ html {
 }
 
 [dir="rtl"] .checkbox:checked,
-    [dir="rtl"] .checkbox[checked="true"],
-    [dir="rtl"] .checkbox[aria-checked="true"] {
+[dir="rtl"] .checkbox[checked="true"],
+[dir="rtl"] .checkbox[aria-checked="true"] {
   background-image: linear-gradient(45deg, transparent 65%, hsl(var(--chkbg)) 65.99%),
-        linear-gradient(-45deg, transparent 75%, hsl(var(--chkbg)) 75.99%),
-        linear-gradient(45deg, hsl(var(--chkbg)) 40%, transparent 40.99%),
-        linear-gradient(
-          -45deg,
-          hsl(var(--chkbg)) 30%,
-          hsl(var(--chkfg)) 30.99%,
-          hsl(var(--chkfg)) 40%,
-          transparent 40.99%
-        ),
-        linear-gradient(45deg, hsl(var(--chkfg)) 50%, hsl(var(--chkbg)) 50.99%);
+    linear-gradient(-45deg, transparent 75%, hsl(var(--chkbg)) 75.99%),
+    linear-gradient(45deg, hsl(var(--chkbg)) 40%, transparent 40.99%),
+    linear-gradient(-45deg,
+      hsl(var(--chkbg)) 30%,
+      hsl(var(--chkfg)) 30.99%,
+      hsl(var(--chkfg)) 40%,
+      transparent 40.99%),
+    linear-gradient(45deg, hsl(var(--chkfg)) 50%, hsl(var(--chkbg)) 50.99%);
 }
 
 .input[list]::-webkit-calendar-picker-indicator {
@@ -904,8 +901,8 @@ html {
 }
 
 .input-disabled,
-  .input:disabled,
-  .input[disabled] {
+.input:disabled,
+.input[disabled] {
   cursor: not-allowed;
   --tw-border-opacity: 1;
   border-color: hsl(var(--b2) / var(--tw-border-opacity));
@@ -914,14 +911,16 @@ html {
   --tw-text-opacity: 0.2;
 }
 
-.input-disabled::-moz-placeholder, .input:disabled::-moz-placeholder, .input[disabled]::-moz-placeholder {
+.input-disabled::-moz-placeholder,
+.input:disabled::-moz-placeholder,
+.input[disabled]::-moz-placeholder {
   color: hsl(var(--bc) / var(--tw-placeholder-opacity));
   --tw-placeholder-opacity: 0.2;
 }
 
 .input-disabled::placeholder,
-  .input:disabled::placeholder,
-  .input[disabled]::placeholder {
+.input:disabled::placeholder,
+.input[disabled]::placeholder {
   color: hsl(var(--bc) / var(--tw-placeholder-opacity));
   --tw-placeholder-opacity: 0.2;
 }
@@ -962,7 +961,7 @@ html {
 }
 
 .radio:checked,
-  .radio[aria-checked="true"] {
+.radio[aria-checked="true"] {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--bc) / var(--tw-bg-opacity));
   animation: radiomark var(--animation-input, 0.2s) ease-in-out;
