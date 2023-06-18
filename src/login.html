@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendify</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="static bg-primary">
+        <!-- Header -->
+        <div class="flex justify-between items-center px-16 py-3 w-full bg-white">
+            <a class="font-nunito text-title text-3xl font-bold pt-3 pb-3">Attendify</a>
+        </div>
+        <!-- End Header -->
+
+        <!-- Content -->
+        <div class="flex h-full">
+            <!-- Content Left -->
+            <div class="flex flex-col h-full w-1/2 pl-[129px]">
+                <div class="font-roboto text-black text-5xl pt-[325px]">
+                    Attendance
+                </div>
+
+                <div class="font-roboto text-title text-5xl pt-3">
+                    for you business
+                </div>
+
+                <div class="font roboto pt-10 w-[621px]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Eveniet, itaque accusantium odio, soluta, corrupti aliquam 
+                     quibusdam tempora at cupiditate quis eum maiores libero veritatis?
+                     Dicta facilis sint aliquid ipsum atque?</p>
+                </div>
+            </div>
+            <!-- End Content Left -->
+
+            <!-- Content Right -->
+            <div class="flex flex-col text-white h-screen w-1/2">
+                <!-- Radio Button -->
+                <div class="flex flex-row pt-[155px] pl-[30px] gap-9">
+                    <div class="flex justify-start items-center border-2 border-solid border-sekunder text-sekunder rounded-lg w-[207px] h-[56px] pl-[16px] gap-3 font-medium">
+                        <input type="radio" class="checked:bg-blue-500"/>Teacher
+                    </div>
+                    <div class="flex justify-start items-center border-2 border-solid border-sekunder text-sekunder rounded-lg w-[207px] h-[56px] pl-[16px] gap-3 font-medium">
+                        <input type="radio" class="checked:bg-blue-500"/>Admin
+                    </div>
+                </div>
+                <!-- End Radio Button -->
+
+                <!-- Username -->
+                <div class="pt-8 pl-[30px]">
+                    <div class="text-black font-medium">
+                        Username
+                    </div>
+                    <div class="text-black pt-2">
+                        <input class="w-[526px] h-[38px] border-1 border-solid border-username rounded-md" type="text" placeholder="" name="uname" required>
+                    </div>
+                </div>
+                <!-- End Username -->
+
+                <!-- Password -->
+                <div class="pt-8 pl-[30px]">
+                    <div class="text-black font-medium">
+                        Password
+                    </div>
+                    <div class="text-black pt-2">
+                        <input class="w-[526px] h-[38px] border-1 border-solid border-username rounded-md" type="password" placeholder="" name="uname" required>
+                    </div>
+                </div>
+                <!-- End Password -->
+
+                <!-- Remember Me -->
+                <div class="flex flex-row text-black pt-8 pl-[30px] gap-3">
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </div>
+                <!-- End Remember Me -->
+
+                <!-- Sign in Button -->
+                <div class="pt-8 pl-[30px]">
+                    <button class="bg-secondary hover:bg-blue-600 text-white py-2 px-4 rounded">
+                        Sign In
+                    </button>
+                </div>
+                <!-- End Sign in Button -->
+
+                <!-- Forgot Password -->
+                <div class="pt-8 pl-[30px]">
+                    <a href="#" class="text-gray-500 hover:text-blue-600 font-roboto">
+                        Forgot Password?
+                    </a>  
+                </div>          
+                <!-- End Forgot Password -->
+
+                <!-- Register -->
+                <div class="flex flex-row gap-2 pt-8 pl-[30px]">
+                    <div class="text-black">
+                        Don't have an account?
+                    </div>
+                    <div>
+                        <a href="#" class="text-akua hover:text-blue-600 font-roboto">
+                            Register here
+                        </a> 
+                    </div>
+                </div>
+                <!-- End Register -->
+            </div>
+            <!-- End Content Right -->
+        </div>
+        <!-- End Content -->
+    </div>
+</body>
+</html>
